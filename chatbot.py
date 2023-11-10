@@ -6,7 +6,7 @@ CB = ChatBot('ChatBot')
  # Training with Personal Ques & Ans
 conversation = [
     "Hello",
-    "Hi there!",
+    "Ada yang bisa saya bantu?",
     "How are you doing?",
     "I'm doing great.",
     "You're welcome.",
@@ -19,4 +19,4 @@ trainer = ListTrainer(CB)
 trainer.train(conversation)
 # # Training with English Corpus Data
 trainer_corpus = ChatterBotCorpusTrainer(CB)
-trainer_corpus.train('chatterbot.corpus.english')
+trainer_corpus.train('chatterbot.corpus.indonesia')
